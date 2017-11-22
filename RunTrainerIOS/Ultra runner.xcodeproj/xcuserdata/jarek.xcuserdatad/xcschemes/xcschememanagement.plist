@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RunTrainerIOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Ultra runner free.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>UltraRunnerFree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ultrarunner copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EF2AE4B916FE363D00F05C44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFB5F8FE1546B2AC00F02B4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFB5F91F1546B2AC00F02B4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFB8291F156648C700B7A3BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

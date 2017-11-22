@@ -1,0 +1,140 @@
+/* 
+  Localized.strings
+  Ultra runner
+
+  Created by jarek on 25.02.2013.
+
+*/
+
+
+// *** Start training *** 
+// odliczanie do startu
+"Start in %i s." = "Start za %i s.";
+"Prepare yourself" = "Przygotuj się";
+"Slow down" ="Zwolnij";
+"Run faster"="Przyspiesz";
+"STOP" = "Stój";
+"RUN" = "Biegnij";
+"FINISHED" = "Koniec";
+"Start now" = "Start";
+"Stop training" = "Zatrzymaj trening";
+"Trainings" = "Treningi";
+// *** Create distance training
+"miles" = "mil";
+
+// *** Create distance interval
+"Rest factor" = "Mnożnik";
+"Rest time" = "Czas przerwy";
+
+// *** ViewResults
+"Your trainings" = "Twoje treningi";
+
+// *** training manager
+"RUN %.0f m" = "Biegnij  %.0f m";
+"RUN %.0f s" = "Biegnij  %.0f s";
+"Rest %.0f s"= "Stój %.0f s";
+"12 minutes" = "12 minut";
+
+// *** Training description
+"no laps defined" = "Nie zdefiniowano biegu";
+" and repeat it %i times. " = " i powtórz to %i razy";
+"Run %@ %@" = "Biegnij %@ %@";
+" then rest %@ times your run time" = " potem stój przez %@ razy czas biegu";
+" then rest %@ s" = " potem stój %@ s";
+" and repeat it %i times. " = " i powtórz to %i razy. ";
+
+// *** Config
+"No sounds" = "Bez dźwięków";
+"Every half" = "W połowie";
+"Every quarter" = "Co ćwierć";
+"Setup" = "Ustawienia";
+"Units" = "Jednostki";
+"Tempo" = "Tempo";
+"Checkpoints" = "Punkty kontrolne";
+"Metronome" = "Metronom";
+"Start countdown" = "Odliczanie";
+"CountdownFooter" = "Ile czasu po naciśnięciu przycisku start powinno upłynąć zanim trening się zacznie (żeby zdążyć schować telefon w kieszeni). Ustaw 0 jeśli nie chcesz czekać ani chwili.";
+"MonitorTempoLabel" = "Monitor tempa";
+"warnIfTempoDiffersLabel" = "Ostrzegaj jeśli tempo różni się od żądanego o więcej niż wybrany %";
+"checkTempoIntervalTitleLabel" = "Co ile sekund sprawdzać tempo";
+"useMetronomeLabel" = "Użyj metronomu";
+"requestedStepsPerMinuteLabel" = "Kroki na minutę";
+"Click to restore your purchases" ="Kliknij aby przywrócić zakupione funkcje";
+"Restore purchases"="Przywróć kupione funkcje";
+// *** Post results view controller
+"User has just got better in %@ workout!" = "Użytkownik poprawił swój rekord w treningu %@!!!";
+"requiredTempoLabel" = "Wybrane tempo";
+// *** Result details
+"Training results" = "Wyniki";
+"Run" = "Czas biegu";
+"Distance" = "Dystans";
+"Lap nr" = "Nr";
+"Rest" = "Przerwa";
+"avg speed" = "śr. prędkość";
+"max speed" = "maks.prędkość";
+"elevation" = "wzniesienie";
+"reduction" = "obniżenie";
+
+//*Search resultstableviewcontroller
+"Find result" = "Znajdź wynik";
+
+//*** Speed chart view controller
+"Speed/Altitude" = "Prędkość/Wysokość";
+
+//*** start training view controller
+"Start your training" = "Rozpocznij trening";
+"Select your training" = "Wybierz trening";
+"Ready" = "Gotowy";
+
+//*** Trainings
+"Trainings" = "Treningi";
+"Create your training" = "Utwórz trening";
+//*read me
+"Read Me"="Czytaj";
+
+//*** new training
+"New training" = "Nowy trening";
+"distanceIntervalDescription" = "Biegniesz dystans, odpoczywasz. Czas odpoczynku możesz ustawić wprost (20s) lub może zależeć od czasu biegu (np. 2x czas biegu)";
+"timeIntervalDescription" = "Biegniesz jakiś czas, potem odpoczywasz, potem powtarzasz";
+"timeTrialDescription"="Ustal jak długo chcesz biegnąć";
+"distanceTrainingDescription"="Ustal jak daleko chcesz biegnąć";
+"distanceTrainingTitle" = "Bieg na dystans";
+"timeTrialTitle" = "Bieg na czas";
+"timeIntervalTitle" = "Interwał czasowy";
+"distanceIntervalTitle" = "Interwał dystansowy";
+//Distance training
+"CreateDistanceTrainingTitle" = "Dystans";
+"TrainingName" = "Ustaw nazwę treningu";
+"Distance" = "Dystans";
+//time trial
+"TimeTrialLength" = "Ustaw czas biegu";
+"NewTimeTrialTitle" = "Bieg na czas";
+
+//time interval
+"RunTime" = "Czas biegu";
+"RestTime" = "Przerwa";
+"Rest time computed" = "Odpoczynek zal. od biegu";
+"Description" = "Opis";
+"TimeIntervalTitle" = "Interwał czas";
+//distance interval
+"DistanceIntervalTitle" = "Interwał dyst";
+"RunDistance" = "Dystans";
+"AddLap" = "Dodaj";
+
+
+//Go pro
+"thisFeatureInFullApp"="Przejdź na pełną wersję aplikacji! Pełna wersja zawiera wiele funkcjonalności, które pokochasz:";
+"featureList"="- Twórz swoje własne treningi!\n- Skorzystaj z metronomu (obiecuję, że ta aplikacja ma najmniej irytujący dźwięk metronomu spośród wszystkich, które słyszałeś)\n- Monitor tempa\n- Brak reklam";
+"upgradeNowButton"="Pobierz teraz!";
+"noThanksButton"="Zamknij";
+"RemoveAds" = "Wyłącz reklamy";
+//purchase manager
+"Warning" = "Uwaga";
+"TransactionFailed" = "Nie udało się przeprowadzić transakcji, proszę spróbuj ponownie, lub poinformuj nas o problemie.";
+
+"GO" = "Biegnij";
+"STOP" = "Stój";
+"FASTER" = "Szybciej!";
+"SLOWER" = "Zwolnij";
+"DONE" = "Trening zakończony";
+"CHECKPOINT" = "Punkt kontrolny";

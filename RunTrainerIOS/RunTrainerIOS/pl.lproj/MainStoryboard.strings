@@ -1,0 +1,268 @@
+
+/* Class = "IBUILabel"; text = "Distance interval"; ObjectID = "1ij-no-Qh2"; */
+"1ij-no-Qh2.text" = "Interwał dystansowy";
+
+/* Class = "IBUILabel"; text = "Give your training a name"; ObjectID = "235-Yc-Xsu"; */
+"235-Yc-Xsu.text" = "Ustaw nazwę dla treningu";
+
+/* Class = "IBUILabel"; text = "Define time trial length"; ObjectID = "2YZ-O9-nXk"; */
+"2YZ-O9-nXk.text" = "Ustaw czas biegu";
+
+/* Class = "IBUILabel"; text = "Rest time computed"; ObjectID = "4E4-2i-rrm"; */
+"4E4-2i-rrm.text" = "Czas przerwy obliczany";
+
+/* Class = "IBUISegmentedControl"; 4It-v5-vfR.segmentTitles[0] = "No sounds"; ObjectID = "4It-v5-vfR"; */
+"4It-v5-vfR.segmentTitles[0]" = "Bez dźwięków";
+
+/* Class = "IBUISegmentedControl"; 4It-v5-vfR.segmentTitles[1] = "Every half"; ObjectID = "4It-v5-vfR"; */
+"4It-v5-vfR.segmentTitles[1]" = "Co połowę";
+
+/* Class = "IBUISegmentedControl"; 4It-v5-vfR.segmentTitles[2] = "Every quarter"; ObjectID = "4It-v5-vfR"; */
+"4It-v5-vfR.segmentTitles[2]" = "Co ćwierć";
+
+/* Class = "IBUINavigationItem"; title = "Training results"; ObjectID = "591-x2-uUT"; */
+"591-x2-uUT.title" = "Wyniki";
+
+/* Class = "IBUINavigationItem"; title = "Speed/Altitude"; ObjectID = "5DG-02-tx9"; */
+"5DG-02-tx9.title" = "Prędkość/Wysokość";
+
+/* Class = "IBUINavigationItem"; title = "New Training"; ObjectID = "77N-2G-fdc"; */
+"77N-2G-fdc.title" = "Nowy trening";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "7Nj-F5-q3D"; */
+"7Nj-F5-q3D.text" = "";
+
+/* Class = "IBUITabBarItem"; title = "Results"; ObjectID = "7Tu-wE-WYX"; */
+"7Tu-wE-WYX.title" = "Wyniki";
+
+/* Class = "IBUILabel"; text = "Run distance"; ObjectID = "8Tz-li-LdW"; */
+"8Tz-li-LdW.text" = "Dystans";
+
+/* Class = "IBUILabel"; text = "Time trail training"; ObjectID = "972-JT-iob"; */
+"972-JT-iob.text" = "Bieg na czas";
+
+/* Class = "IBUILabel"; text = "Time interval"; ObjectID = "AOh-eS-04Y"; */
+"AOh-eS-04Y.text" = "Interwał czasowy";
+
+/* Class = "IBUILabel"; text = "Ready"; ObjectID = "B41-CU-Q0I"; */
+"B41-CU-Q0I.text" = "Gotowy";
+
+/* Class = "IBUILabel"; text = "120"; ObjectID = "BEd-GW-1Ed"; */
+"BEd-GW-1Ed.text" = "120";
+
+/* Class = "IBUILabel"; text = "s."; ObjectID = "Bs2-Nv-xVq"; */
+"Bs2-Nv-xVq.text" = "s.";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Units"; ObjectID = "CBY-eM-dUa"; */
+"CBY-eM-dUa.headerTitle" = "Jednostki";
+
+/* Class = "IBUIButton"; normalTitle = "Create new training"; ObjectID = "D3O-MY-fLV"; */
+"D3O-MY-fLV.normalTitle" = "Nowy trening";
+
+/* Class = "IBUINavigationItem"; title = "Dist. interval"; ObjectID = "DAX-y6-OlG"; */
+"DAX-y6-OlG.title" = "Interwał dyst.";
+
+/* Class = "IBUIBarButtonItem"; title = "Add"; ObjectID = "E2L-5d-jAx"; */
+"E2L-5d-jAx.title" = "Zapisz";
+
+/* Class = "IBUITabBarItem"; title = "Trainings"; ObjectID = "ErD-IY-wvp"; */
+"ErD-IY-wvp.title" = "Treningi";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "GIH-Tx-UAE"; */
+"GIH-Tx-UAE.text" = "Tytuł";
+
+/* Class = "IBUIButton"; normalTitle = "Add lap"; ObjectID = "HHt-YA-QwV"; */
+"HHt-YA-QwV.normalTitle" = "Dodaj";
+
+/* Class = "IBUINavigationItem"; title = "Distance run"; ObjectID = "J66-n1-qZl"; */
+"J66-n1-qZl.title" = "Bieg na dystans";
+
+/* Class = "IBUILabel"; text = "Define how far do you want to run"; ObjectID = "JX4-5i-3N6"; */
+"JX4-5i-3N6.text" = "Zdefiniuj dystans";
+
+/* Class = "IBUILabel"; text = "Lap nr"; ObjectID = "Jq4-KS-MJs"; */
+"Jq4-KS-MJs.text" = "Numer";
+
+/* Class = "IBUINavigationItem"; title = "Trainings"; ObjectID = "K3m-n9-JYV"; */
+"K3m-n9-JYV.title" = "Treningi";
+
+/* Class = "IBUILabel"; text = "Description:"; ObjectID = "LtB-NF-6VM"; */
+"LtB-NF-6VM.text" = "Opis:";
+
+/* Class = "IBUILabel"; text = "N/A"; ObjectID = "MZh-Ac-Dgn"; */
+"MZh-Ac-Dgn.text" = "N/A";
+
+/* Class = "IBUITabBarItem"; title = "Read me"; ObjectID = "N5s-We-hVJ"; */
+"N5s-We-hVJ.title" = "Czytaj";
+
+/* Class = "IBUILabel"; text = "Run some time, then rest some time, then repeat"; ObjectID = "Nkj-na-We4"; */
+"Nkj-na-We4.text" = "Biegniesz, przerwa i od początku";
+
+/* Class = "IBUILabel"; text = "Distance"; ObjectID = "O0b-Sb-qC3"; */
+"O0b-Sb-qC3.text" = "Dystans";
+
+/* Class = "IBUILabel"; text = "m."; ObjectID = "OVU-b6-jJA"; */
+"OVU-b6-jJA.text" = "m.";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "Opa-36-h7Y"; */
+"Opa-36-h7Y.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Your training:"; ObjectID = "PXL-L1-aI4"; */
+"PXL-L1-aI4.text" = "Twój trening:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Tempo"; ObjectID = "Qtc-VA-IDs"; */
+"Qtc-VA-IDs.headerTitle" = "Tempo";
+
+/* Class = "IBUILabel"; text = "Give your training a name"; ObjectID = "R47-dK-13f"; */
+"R47-dK-13f.text" = "Ustaw nazwę dla treningu";
+
+/* Class = "IBUILabel"; text = "Required tempo"; ObjectID = "RE6-Ob-fG7"; */
+"RE6-Ob-fG7.text" = "Wymagane tempo";
+
+/* Class = "IBUIBarButtonItem"; title = "Add"; ObjectID = "RYO-XH-pHm"; */
+"RYO-XH-pHm.title" = "Zapisz";
+
+/* Class = "IBUIButton"; normalTitle = "Start in 10s."; ObjectID = "SMV-IJ-FaQ"; */
+"SMV-IJ-FaQ.normalTitle" = "Start za 10s.";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Metronome"; ObjectID = "ST8-kY-p0q"; */
+"ST8-kY-p0q.headerTitle" = "Metronom";
+
+/* Class = "IBUILabel"; text = "Rest time"; ObjectID = "SVT-cz-9jh"; */
+"SVT-cz-9jh.text" = "Czas przerwy";
+
+/* Class = "IBUILabel"; text = "max speed"; ObjectID = "TQM-ln-w7Q"; */
+"TQM-ln-w7Q.text" = "V max";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "VSE-NT-IV7"; */
+"VSE-NT-IV7.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Status"; ObjectID = "VSr-tn-AKD"; */
+"VSr-tn-AKD.text" = "Status";
+
+/* Class = "IBUILabel"; text = "Define how long do you want to run"; ObjectID = "Vx6-4H-8Qw"; */
+"Vx6-4H-8Qw.text" = "Zdefiniuj czas biegu";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "WWA-ei-L1u"; */
+"WWA-ei-L1u.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Check tempo interval(seconds)"; ObjectID = "X52-HE-aDk"; */
+"X52-HE-aDk.text" = "Co ile sekund sprawdzać tempo";
+
+/* Class = "IBUILabel"; text = "N/A"; ObjectID = "XDw-0M-cSA"; */
+"XDw-0M-cSA.text" = "N/A";
+
+/* Class = "IBUILabel"; text = "Give your training a name"; ObjectID = "XhH-sj-EXV"; */
+"XhH-sj-EXV.text" = "Ustaw nazwę dla treningu";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Checkpoints"; ObjectID = "YqT-Ob-YS6"; */
+"YqT-Ob-YS6.headerTitle" = "Punkty kontrolne";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "b0p-1Z-kkz"; */
+"b0p-1Z-kkz.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Warn if tempo differs from requested more than %"; ObjectID = "bBB-gt-f3R"; */
+"bBB-gt-f3R.text" = "Ostrzegaj jeśli tempo się różni od wymaganego o więcej niż %";
+
+/* Class = "IBUILabel"; text = "Run time"; ObjectID = "cPq-Ks-kuy"; */
+"cPq-Ks-kuy.text" = "Czas biegu";
+
+/* Class = "IBUILabel"; text = "Rest time"; ObjectID = "dIr-HJ-AL7"; */
+"dIr-HJ-AL7.text" = "Czas przerwy";
+
+/* Class = "IBUINavigationItem"; title = "Find result"; ObjectID = "f12-EY-9rs"; */
+"f12-EY-9rs.title" = "Znajdź wynik";
+
+/* Class = "IBUILabel"; text = "Choose distance (in metres)"; ObjectID = "fLw-51-r7T"; */
+"fLw-51-r7T.text" = "Wybierz dystans (w metrach)";
+
+/* Class = "IBUILabel"; text = "avg speed"; ObjectID = "feZ-R3-gYL"; */
+"feZ-R3-gYL.text" = "V śr.";
+
+/* Class = "IBUILabel"; text = "Use Metronome"; ObjectID = "iG7-JG-AOa"; */
+"iG7-JG-AOa.text" = "Użyj metronomu";
+
+/* Class = "IBUILabel"; text = "Distance"; ObjectID = "jRO-r8-6MV"; */
+"jRO-r8-6MV.text" = "Dystans";
+
+/* Class = "IBUITabBarItem"; title = "Setup"; ObjectID = "jq4-eH-SdW"; */
+"jq4-eH-SdW.title" = "Ustawienia";
+
+/* Class = "IBUILabel"; text = "Distance training"; ObjectID = "jz9-NB-Qwr"; */
+"jz9-NB-Qwr.text" = "Trening na dystans";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "kXk-3M-DlA"; */
+"kXk-3M-DlA.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Run some distance, rest time can depend on run time (eg 2* run time) or be defined explicitly (eg. rest 20 seconds)"; ObjectID = "lyD-1Q-dW7"; */
+"lyD-1Q-dW7.text" = "Biegniesz (dystans), Czas odpoczynku może byś na sztywno lub zależeć od czasu biegu (np. 2x czas biegu).";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "mbe-Tn-cyh"; */
+"mbe-Tn-cyh.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "me7-Mr-yz2"; */
+"me7-Mr-yz2.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "Time interval"; ObjectID = "moh-gn-Ifv"; */
+"moh-gn-Ifv.title" = "Interwał czasowy";
+
+/* Class = "IBUILabel"; text = "s."; ObjectID = "ok6-il-LRQ"; */
+"ok6-il-LRQ.text" = "s.";
+
+/* Class = "IBUIButton"; normalTitle = "Start now"; ObjectID = "p05-zc-fRV"; */
+"p05-zc-fRV.normalTitle" = "Start";
+
+/* Class = "IBUILabel"; text = "s."; ObjectID = "pUM-0k-KdY"; */
+"pUM-0k-KdY.text" = "s.";
+
+/* Class = "IBUIButton"; normalTitle = "Add lap"; ObjectID = "qAo-eN-r4n"; */
+"qAo-eN-r4n.normalTitle" = "Dodaj";
+
+/* Class = "IBUILabel"; text = "Description"; ObjectID = "qC0-r9-gxa"; */
+"qC0-r9-gxa.text" = "Opis";
+
+/* Class = "IBUISegmentedControl"; qEV-A1-bGN.segmentTitles[0] = "km/h"; ObjectID = "qEV-A1-bGN"; */
+"qEV-A1-bGN.segmentTitles[0]" = "km/h";
+
+/* Class = "IBUISegmentedControl"; qEV-A1-bGN.segmentTitles[1] = "m/h"; ObjectID = "qEV-A1-bGN"; */
+"qEV-A1-bGN.segmentTitles[1]" = "m/h";
+
+/* Class = "IBUISegmentedControl"; qEV-A1-bGN.segmentTitles[2] = "m/km"; ObjectID = "qEV-A1-bGN"; */
+"qEV-A1-bGN.segmentTitles[2]" = "m/km";
+
+/* Class = "IBUISegmentedControl"; qEV-A1-bGN.segmentTitles[3] = "m/mile"; ObjectID = "qEV-A1-bGN"; */
+"qEV-A1-bGN.segmentTitles[3]" = "m/mile";
+
+/* Class = "IBUIButton"; normalTitle = "Select your training"; ObjectID = "rD4-ED-THT"; */
+"rD4-ED-THT.normalTitle" = "Wybierz trening";
+
+/* Class = "IBUINavigationItem"; title = "Time trial"; ObjectID = "rHO-pX-kbF"; */
+"rHO-pX-kbF.title" = "Bieg na czas";
+
+/* Class = "IBUILabel"; text = "Rest"; ObjectID = "s5i-dg-rqn"; */
+"s5i-dg-rqn.text" = "Przerwa";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "tXk-9K-LDh"; */
+"tXk-9K-LDh.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Monitor tempo"; ObjectID = "tgO-x3-0it"; */
+"tgO-x3-0it.text" = "Monitoruj tempo";
+
+/* Class = "IBUITableViewController"; title = "Find result"; ObjectID = "ula-Rb-ZiC"; */
+"ula-Rb-ZiC.title" = "Znajdź wynik";
+
+/* Class = "IBUILabel"; text = "Run:"; ObjectID = "y6i-gq-dbU"; */
+"y6i-gq-dbU.text" = "Bieg:";
+
+/* Class = "IBUILabel"; text = "Requested steps per minute"; ObjectID = "y8L-vA-gZ0"; */
+"y8L-vA-gZ0.text" = "Wymagane kroki na minutę";
+
+/* Class = "IBUILabel"; text = "Speed"; ObjectID = "ye9-hp-MoC"; */
+"ye9-hp-MoC.text" = "Prędkość";
+
+/* Class = "IBUILabel"; text = "Give your training a name"; ObjectID = "ytP-0d-MzU"; */
+"ytP-0d-MzU.text" = "Ustaw nazwę dla treningu";
+
+
+"d9O-og-vvk.headerTitle" = "Odliczanie przed startem";
+"d9O-og-vvk.footerTitle" = "Ile czasu potrzebujesz od wciśnięcia przycisku start do rozpoczęcia treningu (żeby schować telefon w kieszeni)? Ustaw na 0 jeśli nie potrzebujesz wcale.";

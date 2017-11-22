@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="11G63" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Lap" representedClassName="Lap" syncable="YES">
+        <attribute name="containsRest" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isRestTimeComputed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lapNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="restTime" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="restTimeComputeFactor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="runDistance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="runTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="training" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Training" inverseName="laps" inverseEntity="Training" syncable="YES"/>
+    </entity>
+    <entity name="Result" representedClassName="Result" syncable="YES">
+        <attribute name="trainingDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="trainingName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="laps" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ResultLap" inverseName="result" inverseEntity="ResultLap" syncable="YES"/>
+        <relationship name="training" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Training" inverseName="results" inverseEntity="Training" syncable="YES"/>
+    </entity>
+    <entity name="ResultLap" representedClassName="ResultLap" syncable="YES">
+        <attribute name="ascend" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="avgSpeed" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="descend" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lapNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxSpeed" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="restTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="runDistance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="runTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="result" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Result" inverseName="laps" inverseEntity="Result" syncable="YES"/>
+        <relationship name="speedData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SpeedData" inverseName="lapResult" inverseEntity="SpeedData" syncable="YES"/>
+    </entity>
+    <entity name="SpeedData" representedClassName="SpeedData" syncable="YES">
+        <attribute name="alt" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="lapResult" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ResultLap" inverseName="speedData" inverseEntity="ResultLap" syncable="YES"/>
+    </entity>
+    <entity name="Training" representedClassName="Training" syncable="YES">
+        <attribute name="trainingName" attributeType="String" syncable="YES"/>
+        <relationship name="laps" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Lap" inverseName="training" inverseEntity="Lap" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Result" inverseName="training" inverseEntity="Result" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Lap" positionX="448" positionY="72" width="128" height="165"/>
+        <element name="Result" positionX="-36" positionY="0" width="128" height="105"/>
+        <element name="ResultLap" positionX="234" positionY="18" width="128" height="195"/>
+        <element name="SpeedData" positionX="369" positionY="-135" width="128" height="150"/>
+        <element name="Training" positionX="36" positionY="156" width="128" height="90"/>
+    </elements>
+</model>

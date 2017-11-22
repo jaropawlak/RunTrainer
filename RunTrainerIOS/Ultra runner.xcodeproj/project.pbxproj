@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCE84738613FD115C2854B8 /* libPods-ultrarunner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8F30415289B5441109B0BE /* libPods-ultrarunner.a */; };
+		EF01522315B0348700CAD510 /* CreateNewTimeIntervalTrainingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF01522215B0348700CAD510 /* CreateNewTimeIntervalTrainingController.m */; };
+		EF01522715B0490800CAD510 /* Training.m in Sources */ = {isa = PBXBuildFile; fileRef = EF01522615B0490800CAD510 /* Training.m */; };
+		EF0E399D15F92E3A004C54D5 /* SpeedChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E399C15F92E3A004C54D5 /* SpeedChartViewController.m */; };
+		EF0FA3E217E6ECFF000F4E72 /* rt_retina_biale_tlo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0FA3DE17E6ECFF000F4E72 /* rt_retina_biale_tlo.png */; };
+		EF0FA3E817E6ECFF000F4E72 /* rtfull_standard_biale_tlo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0FA3E117E6ECFF000F4E72 /* rtfull_standard_biale_tlo.png */; };
+		EF0FA3F417E6EF21000F4E72 /* ImagesFull.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0FA3F317E6EF21000F4E72 /* ImagesFull.xcassets */; };
+		EF14F6FD162C905000FDC2B7 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF14F6FC162C905000FDC2B7 /* SearchResultsTableViewController.m */; };
+		EF18900815FA7B06008508A1 /* SpeedChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18900715FA7B06008508A1 /* SpeedChartView.m */; };
+		EF19FD2C15F4BF6B00CDE6B4 /* ResultDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19FD2B15F4BF6B00CDE6B4 /* ResultDetailsController.m */; };
+		EF1C27E415C6A2FD00D5E9F9 /* ViewResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C27E315C6A2FD00D5E9F9 /* ViewResultsTableViewController.m */; };
+		EF1ECA9816D60E6C007A01E5 /* bip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF1ECA9716D60E6C007A01E5 /* bip.mp3 */; };
+		EF1FC92A15AEF1ED00337965 /* CreateTimeTrialTrainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1FC92915AEF1ED00337965 /* CreateTimeTrialTrainingViewController.m */; };
+		EF1FCFEB1725413E007EF08F /* black_back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1FCFEA1725413E007EF08F /* black_back.png */; };
+		EF1FCFFE172960B4007EF08F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FCFFC17295A4B007EF08F /* iAd.framework */; };
+		EF213F8215F76BDF002EB35C /* ResultDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF213F8115F76BDF002EB35C /* ResultDetailsCell.m */; };
+		EF2AE51916FE49DA00F05C44 /* SelectNewTrainingTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2AE51816FE49DA00F05C44 /* SelectNewTrainingTypeViewController.m */; };
+		EF38335215A2EFEC00845FE6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF38335115A2EFEC00845FE6 /* CoreData.framework */; };
+		EF3A2102170AEB9500D18CEC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A2101170AEB9500D18CEC /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EF3A2104170AEB9900D18CEC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A2103170AEB9900D18CEC /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EF3A2106170AEBA000D18CEC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A2105170AEBA000D18CEC /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EF3A2108170AEBE800D18CEC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A2107170AEBE800D18CEC /* libsqlite3.dylib */; };
+		EF3AEFD016C2E13B00450596 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3AEFCF16C2E13B00450596 /* SystemConfiguration.framework */; };
+		EF3AEFEE16C37ABB00450596 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3AEFED16C37ABB00450596 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EF3AEFF016C37B6800450596 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3AEFEF16C37B6800450596 /* CFNetwork.framework */; };
+		EF3E5F5A1648E2A10059A744 /* Training+TrainingDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3E5F591648E2A10059A744 /* Training+TrainingDescription.m */; };
+		EF40F1531712DC6600440D41 /* help_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EF40F1521712DC6600440D41 /* help_24.png */; };
+		EF50BA1115BEC19F00C65041 /* Lap.m in Sources */ = {isa = PBXBuildFile; fileRef = EF50BA1015BEC19F00C65041 /* Lap.m */; };
+		EF5660BA15D53D66007E5267 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5660B915D53D66007E5267 /* SoundManager.m */; };
+		EF5660CA15D5455B007E5267 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5660C915D5455B007E5267 /* AVFoundation.framework */; };
+		EF84C87D1751687E0070261E /* rtfull_standard_biale_tlo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF84C87C1751687E0070261E /* rtfull_standard_biale_tlo.png */; };
+		EF84C87F1751688F0070261E /* rt_retina_biale_tlo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF84C87E1751688F0070261E /* rt_retina_biale_tlo.png */; };
+		EF87E7091A8CB52500E5D0E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF87E7081A8CB52500E5D0E6 /* Default-568h@2x.png */; };
+		EF89F6DA17153CF3005F2DE8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF89F6D917153CF3005F2DE8 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EF8A1D1C168C4CDC00A24FE0 /* StaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1D1B168C4CDC00A24FE0 /* StaticLibrary.m */; };
+		EF9231F118D82F4800C8C33F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9231EF18D82F3800C8C33F /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EF924B6B16E4B9E200ED7FDC /* distance.png in Resources */ = {isa = PBXBuildFile; fileRef = EF924B6716E4B9E200ED7FDC /* distance.png */; };
+		EF924B6C16E4B9E200ED7FDC /* speed.png in Resources */ = {isa = PBXBuildFile; fileRef = EF924B6816E4B9E200ED7FDC /* speed.png */; };
+		EFA6F1D4159C705B00C8810F /* RTModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F1D2159C705B00C8810F /* RTModel.xcdatamodeld */; };
+		EFA9D0E51A0B8E6F0020A9FE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA39108173A2F8300DBEEB4 /* MessageUI.framework */; };
+		EFABFD7E15AD636700F732D3 /* RunTrainerShared.m in Sources */ = {isa = PBXBuildFile; fileRef = EFABFD7D15AD636700F732D3 /* RunTrainerShared.m */; };
+		EFABFDB315ADAB8B00F732D3 /* createDistanceTrainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFABFDB215ADAB8B00F732D3 /* createDistanceTrainingViewController.m */; };
+		EFAE79E317C257E900E0CEA2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE79E117C257DD00E0CEA2 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EFB2811716638EAF002E9ECA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB2811616638EAF002E9ECA /* QuartzCore.framework */; };
+		EFB5F9041546B2AC00F02B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5F9031546B2AC00F02B4D /* UIKit.framework */; };
+		EFB5F9061546B2AC00F02B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5F9051546B2AC00F02B4D /* Foundation.framework */; };
+		EFB5F9081546B2AC00F02B4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5F9071546B2AC00F02B4D /* CoreGraphics.framework */; };
+		EFB5F90E1546B2AC00F02B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFB5F90C1546B2AC00F02B4D /* InfoPlist.strings */; };
+		EFB5F9101546B2AC00F02B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5F90F1546B2AC00F02B4D /* main.m */; };
+		EFB5F9141546B2AC00F02B4D /* runtrainerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5F9131546B2AC00F02B4D /* runtrainerAppDelegate.m */; };
+		EFB5F9171546B2AC00F02B4D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB5F9151546B2AC00F02B4D /* MainStoryboard.storyboard */; };
+		EFB5F91A1546B2AC00F02B4D /* runtrainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5F9191546B2AC00F02B4D /* runtrainerViewController.m */; };
+		EFB5F9231546B2AC00F02B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5F9031546B2AC00F02B4D /* UIKit.framework */; };
+		EFB5F9241546B2AC00F02B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5F9051546B2AC00F02B4D /* Foundation.framework */; };
+		EFB5F92C1546B2AC00F02B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFB5F92A1546B2AC00F02B4D /* InfoPlist.strings */; };
+		EFB5F92F1546B2AC00F02B4D /* RunTrainerIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5F92E1546B2AC00F02B4D /* RunTrainerIOSTests.m */; };
+		EFBB341A15BD626600EB4531 /* TrainingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB341915BD626600EB4531 /* TrainingManager.m */; };
+		EFBB341E15BD78BE00EB4531 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBB341D15BD78BE00EB4531 /* CoreLocation.framework */; };
+		EFBB342715BD8D4A00EB4531 /* SpeedData.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB342615BD8D4A00EB4531 /* SpeedData.m */; };
+		EFBFD0EA15B5495300356661 /* CreateNewDistanceIntervalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFD0E915B5495300356661 /* CreateNewDistanceIntervalViewController.m */; };
+		EFBFD0F415B593D500356661 /* StartTrainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFD0F315B593D500356661 /* StartTrainingViewController.m */; };
+		EFC3AABB16DBF8DC0017FEA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC3AABD16DBF8DC0017FEA8 /* Localizable.strings */; };
+		EFCE76D415AC210F00B0B03D /* TrainingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCE76D315AC210F00B0B03D /* TrainingsViewController.m */; };
+		EFDDF66615B6C42500783341 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDDF66515B6C42500783341 /* ConfigViewController.m */; };
+		EFF73FC4163C92000037F384 /* arrow_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FBB163C92000037F384 /* arrow_24.png */; };
+		EFF73FC5163C92000037F384 /* arrow_48.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FBC163C92000037F384 /* arrow_48.png */; };
+		EFF73FC6163C92000037F384 /* arrow_64.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FBD163C92000037F384 /* arrow_64.png */; };
+		EFF73FC7163C92000037F384 /* clock_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FBE163C92000037F384 /* clock_24.png */; };
+		EFF73FC8163C92000037F384 /* clock_48.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FBF163C92000037F384 /* clock_48.png */; };
+		EFF73FC9163C92000037F384 /* clock_64.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FC0163C92000037F384 /* clock_64.png */; };
+		EFF73FCA163C92000037F384 /* gear_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FC1163C92000037F384 /* gear_24.png */; };
+		EFF73FCB163C92000037F384 /* gear_48.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FC2163C92000037F384 /* gear_48.png */; };
+		EFF73FCC163C92000037F384 /* gear_64.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF73FC3163C92000037F384 /* gear_64.png */; };
+		EFFF3FF017748AB9004D5459 /* menuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFF3FEF17748AB9004D5459 /* menuButton@2x.png */; };
+		EFFFE5BC1740D2A5006EFAC1 /* ResultLap.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE5BB1740D2A5006EFAC1 /* ResultLap.m */; };
+		EFFFE5BF1740D2A5006EFAC1 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE5BE1740D2A5006EFAC1 /* Result.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB5F9251546B2AC00F02B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB5F8F61546B2AC00F02B4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB5F8FE1546B2AC00F02B4D;
+			remoteInfo = RunTrainerIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DCBCF71D923F857384F6D05 /* Pods-ultrarunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrarunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ultrarunner/Pods-ultrarunner.debug.xcconfig"; sourceTree = "<group>"; };
+		34986F3637E0697644E21B4F /* Pods-ultrarunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrarunner.release.xcconfig"; path = "Pods/Target Support Files/Pods-ultrarunner/Pods-ultrarunner.release.xcconfig"; sourceTree = "<group>"; };
+		6A8F30415289B5441109B0BE /* libPods-ultrarunner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ultrarunner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF01522115B0348700CAD510 /* CreateNewTimeIntervalTrainingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewTimeIntervalTrainingController.h; sourceTree = "<group>"; };
+		EF01522215B0348700CAD510 /* CreateNewTimeIntervalTrainingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewTimeIntervalTrainingController.m; sourceTree = "<group>"; };
+		EF01522515B0490800CAD510 /* Training.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Training.h; sourceTree = "<group>"; };
+		EF01522615B0490800CAD510 /* Training.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Training.m; sourceTree = "<group>"; };
+		EF0E399B15F92E3A004C54D5 /* SpeedChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedChartViewController.h; sourceTree = "<group>"; };
+		EF0E399C15F92E3A004C54D5 /* SpeedChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedChartViewController.m; sourceTree = "<group>"; };
+		EF0FA3DD17E6E7D2000F4E72 /* rt_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rt_120.png; sourceTree = "<group>"; };
+		EF0FA3DE17E6ECFF000F4E72 /* rt_retina_biale_tlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rt_retina_biale_tlo.png; path = images/rt_retina_biale_tlo.png; sourceTree = "<group>"; };
+		EF0FA3E117E6ECFF000F4E72 /* rtfull_standard_biale_tlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rtfull_standard_biale_tlo.png; path = images/rtfull_standard_biale_tlo.png; sourceTree = "<group>"; };
+		EF0FA3F317E6EF21000F4E72 /* ImagesFull.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ImagesFull.xcassets; path = ultrarunner/ImagesFull.xcassets; sourceTree = "<group>"; };
+		EF14F6FB162C905000FDC2B7 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsTableViewController.h; sourceTree = "<group>"; };
+		EF14F6FC162C905000FDC2B7 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		EF18900615FA7B06008508A1 /* SpeedChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedChartView.h; sourceTree = "<group>"; };
+		EF18900715FA7B06008508A1 /* SpeedChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedChartView.m; sourceTree = "<group>"; };
+		EF19FD2A15F4BF6B00CDE6B4 /* ResultDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultDetailsController.h; sourceTree = "<group>"; };
+		EF19FD2B15F4BF6B00CDE6B4 /* ResultDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultDetailsController.m; sourceTree = "<group>"; };
+		EF1C27E215C6A2FD00D5E9F9 /* ViewResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewResultsTableViewController.h; sourceTree = "<group>"; };
+		EF1C27E315C6A2FD00D5E9F9 /* ViewResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewResultsTableViewController.m; sourceTree = "<group>"; };
+		EF1ECA9716D60E6C007A01E5 /* bip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bip.mp3; path = sounds/bip.mp3; sourceTree = "<group>"; };
+		EF1FC92815AEF1ED00337965 /* CreateTimeTrialTrainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTimeTrialTrainingViewController.h; sourceTree = "<group>"; };
+		EF1FC92915AEF1ED00337965 /* CreateTimeTrialTrainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTimeTrialTrainingViewController.m; sourceTree = "<group>"; };
+		EF1FCFEA1725413E007EF08F /* black_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_back.png; path = images/black_back.png; sourceTree = "<group>"; };
+		EF1FCFFC17295A4B007EF08F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		EF213F8015F76BDF002EB35C /* ResultDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultDetailsCell.h; sourceTree = "<group>"; };
+		EF213F8115F76BDF002EB35C /* ResultDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultDetailsCell.m; sourceTree = "<group>"; };
+		EF2AE51716FE49DA00F05C44 /* SelectNewTrainingTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNewTrainingTypeViewController.h; sourceTree = "<group>"; };
+		EF2AE51816FE49DA00F05C44 /* SelectNewTrainingTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNewTrainingTypeViewController.m; sourceTree = "<group>"; };
+		EF38335115A2EFEC00845FE6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF3A2101170AEB9500D18CEC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EF3A2103170AEB9900D18CEC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EF3A2105170AEBA000D18CEC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EF3A2107170AEBE800D18CEC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EF3AEFCF16C2E13B00450596 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EF3AEFED16C37ABB00450596 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EF3AEFEF16C37B6800450596 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EF3E5F581648E2A10059A744 /* Training+TrainingDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Training+TrainingDescription.h"; sourceTree = "<group>"; };
+		EF3E5F591648E2A10059A744 /* Training+TrainingDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Training+TrainingDescription.m"; sourceTree = "<group>"; };
+		EF40F1521712DC6600440D41 /* help_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_24.png; sourceTree = "<group>"; };
+		EF50BA0F15BEC19F00C65041 /* Lap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lap.h; sourceTree = "<group>"; };
+		EF50BA1015BEC19F00C65041 /* Lap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lap.m; sourceTree = "<group>"; };
+		EF5660B815D53D66007E5267 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		EF5660B915D53D66007E5267 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		EF5660C915D5455B007E5267 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF84C87C1751687E0070261E /* rtfull_standard_biale_tlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rtfull_standard_biale_tlo.png; sourceTree = "<group>"; };
+		EF84C87E1751688F0070261E /* rt_retina_biale_tlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rt_retina_biale_tlo.png; sourceTree = "<group>"; };
+		EF87E7081A8CB52500E5D0E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF89F6D917153CF3005F2DE8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EF8A1D1A168C4CDC00A24FE0 /* StaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibrary.h; sourceTree = "<group>"; };
+		EF8A1D1B168C4CDC00A24FE0 /* StaticLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticLibrary.m; sourceTree = "<group>"; };
+		EF9231EF18D82F3800C8C33F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EF924B6716E4B9E200ED7FDC /* distance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = distance.png; path = images/distance.png; sourceTree = "<group>"; };
+		EF924B6816E4B9E200ED7FDC /* speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speed.png; path = images/speed.png; sourceTree = "<group>"; };
+		EFA39108173A2F8300DBEEB4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EFA6F1D3159C705B00C8810F /* RTModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RTModel.xcdatamodel; sourceTree = "<group>"; };
+		EFABFD7C15AD636700F732D3 /* RunTrainerShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTrainerShared.h; sourceTree = "<group>"; };
+		EFABFD7D15AD636700F732D3 /* RunTrainerShared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTrainerShared.m; sourceTree = "<group>"; };
+		EFABFDB115ADAB8B00F732D3 /* createDistanceTrainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createDistanceTrainingViewController.h; sourceTree = "<group>"; };
+		EFABFDB215ADAB8B00F732D3 /* createDistanceTrainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createDistanceTrainingViewController.m; sourceTree = "<group>"; };
+		EFAE79E117C257DD00E0CEA2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EFB2811616638EAF002E9ECA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFB5F8FF1546B2AC00F02B4D /* ultrarunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ultrarunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB5F9031546B2AC00F02B4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFB5F9051546B2AC00F02B4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFB5F9071546B2AC00F02B4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFB5F90B1546B2AC00F02B4D /* Ultra runner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ultra runner-Info.plist"; sourceTree = "<group>"; };
+		EFB5F90D1546B2AC00F02B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFB5F90F1546B2AC00F02B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFB5F9111546B2AC00F02B4D /* Ultra runner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ultra runner-Prefix.pch"; sourceTree = "<group>"; };
+		EFB5F9121546B2AC00F02B4D /* runtrainerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runtrainerAppDelegate.h; sourceTree = "<group>"; };
+		EFB5F9131546B2AC00F02B4D /* runtrainerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtrainerAppDelegate.m; sourceTree = "<group>"; };
+		EFB5F9181546B2AC00F02B4D /* runtrainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runtrainerViewController.h; sourceTree = "<group>"; };
+		EFB5F9191546B2AC00F02B4D /* runtrainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtrainerViewController.m; sourceTree = "<group>"; };
+		EFB5F9201546B2AC00F02B4D /* Ultra runnerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ultra runnerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB5F9291546B2AC00F02B4D /* Ultra runnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ultra runnerTests-Info.plist"; sourceTree = "<group>"; };
+		EFB5F92B1546B2AC00F02B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFB5F92D1546B2AC00F02B4D /* RunTrainerIOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTrainerIOSTests.h; sourceTree = "<group>"; };
+		EFB5F92E1546B2AC00F02B4D /* RunTrainerIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTrainerIOSTests.m; sourceTree = "<group>"; };
+		EFBB341815BD626600EB4531 /* TrainingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingManager.h; sourceTree = "<group>"; };
+		EFBB341915BD626600EB4531 /* TrainingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingManager.m; sourceTree = "<group>"; };
+		EFBB341C15BD62D800EB4531 /* TrainingManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainingManagerDelegate.h; sourceTree = "<group>"; };
+		EFBB341D15BD78BE00EB4531 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EFBB342515BD8D4A00EB4531 /* SpeedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedData.h; sourceTree = "<group>"; };
+		EFBB342615BD8D4A00EB4531 /* SpeedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedData.m; sourceTree = "<group>"; };
+		EFBFD0E815B5495300356661 /* CreateNewDistanceIntervalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewDistanceIntervalViewController.h; sourceTree = "<group>"; };
+		EFBFD0E915B5495300356661 /* CreateNewDistanceIntervalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewDistanceIntervalViewController.m; sourceTree = "<group>"; };
+		EFBFD0F215B593D400356661 /* StartTrainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTrainingViewController.h; sourceTree = "<group>"; };
+		EFBFD0F315B593D500356661 /* StartTrainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTrainingViewController.m; sourceTree = "<group>"; };
+		EFC3AABE16DBF8E30017FEA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EFC3AABF16DBF93A0017FEA8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EFCE76D215AC210F00B0B03D /* TrainingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingsViewController.h; sourceTree = "<group>"; };
+		EFCE76D315AC210F00B0B03D /* TrainingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingsViewController.m; sourceTree = "<group>"; };
+		EFDDF66415B6C42500783341 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		EFDDF66515B6C42500783341 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		EFE32BAB174D139500FF35D0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EFF5CD001714905300A7A1B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EFF73FBB163C92000037F384 /* arrow_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_24.png; sourceTree = "<group>"; };
+		EFF73FBC163C92000037F384 /* arrow_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_48.png; sourceTree = "<group>"; };
+		EFF73FBD163C92000037F384 /* arrow_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_64.png; sourceTree = "<group>"; };
+		EFF73FBE163C92000037F384 /* clock_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_24.png; sourceTree = "<group>"; };
+		EFF73FBF163C92000037F384 /* clock_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_48.png; sourceTree = "<group>"; };
+		EFF73FC0163C92000037F384 /* clock_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_64.png; sourceTree = "<group>"; };
+		EFF73FC1163C92000037F384 /* gear_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_24.png; sourceTree = "<group>"; };
+		EFF73FC2163C92000037F384 /* gear_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_48.png; sourceTree = "<group>"; };
+		EFF73FC3163C92000037F384 /* gear_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_64.png; sourceTree = "<group>"; };
+		EFFF3FEF17748AB9004D5459 /* menuButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menuButton@2x.png"; path = "images/menuButton@2x.png"; sourceTree = "<group>"; };
+		EFFFE5B91740D0E3006EFAC1 /* RTModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RTModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		EFFFE5BA1740D2A5006EFAC1 /* ResultLap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultLap.h; sourceTree = "<group>"; };
+		EFFFE5BB1740D2A5006EFAC1 /* ResultLap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultLap.m; sourceTree = "<group>"; };
+		EFFFE5BD1740D2A5006EFAC1 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		EFFFE5BE1740D2A5006EFAC1 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB5F8FC1546B2AC00F02B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA9D0E51A0B8E6F0020A9FE /* MessageUI.framework in Frameworks */,
+				EF9231F118D82F4800C8C33F /* CoreTelephony.framework in Frameworks */,
+				EF3A2102170AEB9500D18CEC /* AdSupport.framework in Frameworks */,
+				EFAE79E317C257E900E0CEA2 /* Security.framework in Frameworks */,
+				EF1FCFFE172960B4007EF08F /* iAd.framework in Frameworks */,
+				EF89F6DA17153CF3005F2DE8 /* AudioToolbox.framework in Frameworks */,
+				EF3A2108170AEBE800D18CEC /* libsqlite3.dylib in Frameworks */,
+				EF3A2106170AEBA000D18CEC /* Social.framework in Frameworks */,
+				EF3A2104170AEB9900D18CEC /* Accounts.framework in Frameworks */,
+				EF3AEFF016C37B6800450596 /* CFNetwork.framework in Frameworks */,
+				EF3AEFEE16C37ABB00450596 /* StoreKit.framework in Frameworks */,
+				EF3AEFD016C2E13B00450596 /* SystemConfiguration.framework in Frameworks */,
+				EFB2811716638EAF002E9ECA /* QuartzCore.framework in Frameworks */,
+				EF5660CA15D5455B007E5267 /* AVFoundation.framework in Frameworks */,
+				EFBB341E15BD78BE00EB4531 /* CoreLocation.framework in Frameworks */,
+				EF38335215A2EFEC00845FE6 /* CoreData.framework in Frameworks */,
+				EFB5F9041546B2AC00F02B4D /* UIKit.framework in Frameworks */,
+				EFB5F9061546B2AC00F02B4D /* Foundation.framework in Frameworks */,
+				EFB5F9081546B2AC00F02B4D /* CoreGraphics.framework in Frameworks */,
+				DFCE84738613FD115C2854B8 /* libPods-ultrarunner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB5F91C1546B2AC00F02B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB5F9231546B2AC00F02B4D /* UIKit.framework in Frameworks */,
+				EFB5F9241546B2AC00F02B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8711130D290EF59CB42CBC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBCF71D923F857384F6D05 /* Pods-ultrarunner.debug.xcconfig */,
+				34986F3637E0697644E21B4F /* Pods-ultrarunner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF18900415FA7AE1008508A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF18900615FA7B06008508A1 /* SpeedChartView.h */,
+				EF18900715FA7B06008508A1 /* SpeedChartView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF38330F15A1DF9D00845FE6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB342515BD8D4A00EB4531 /* SpeedData.h */,
+				EFBB342615BD8D4A00EB4531 /* SpeedData.m */,
+				EFA6F1D2159C705B00C8810F /* RTModel.xcdatamodeld */,
+				EFFFE5BA1740D2A5006EFAC1 /* ResultLap.h */,
+				EFFFE5BB1740D2A5006EFAC1 /* ResultLap.m */,
+				EFFFE5BD1740D2A5006EFAC1 /* Result.h */,
+				EFFFE5BE1740D2A5006EFAC1 /* Result.m */,
+				EF50BA0F15BEC19F00C65041 /* Lap.h */,
+				EF50BA1015BEC19F00C65041 /* Lap.m */,
+				EF01522515B0490800CAD510 /* Training.h */,
+				EF01522615B0490800CAD510 /* Training.m */,
+				EF3E5F581648E2A10059A744 /* Training+TrainingDescription.h */,
+				EF3E5F591648E2A10059A744 /* Training+TrainingDescription.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		EF5660C815D544E3007E5267 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ECA9716D60E6C007A01E5 /* bip.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		EF772E5316367A50003980BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EF87E7081A8CB52500E5D0E6 /* Default-568h@2x.png */,
+				EF0FA3DE17E6ECFF000F4E72 /* rt_retina_biale_tlo.png */,
+				EF0FA3E117E6ECFF000F4E72 /* rtfull_standard_biale_tlo.png */,
+				EF0FA3DD17E6E7D2000F4E72 /* rt_120.png */,
+				EFFF3FEF17748AB9004D5459 /* menuButton@2x.png */,
+				EF1FCFEA1725413E007EF08F /* black_back.png */,
+				EF40F1521712DC6600440D41 /* help_24.png */,
+				EF924B6716E4B9E200ED7FDC /* distance.png */,
+				EF924B6816E4B9E200ED7FDC /* speed.png */,
+				EFF73FBB163C92000037F384 /* arrow_24.png */,
+				EFF73FBC163C92000037F384 /* arrow_48.png */,
+				EFF73FBD163C92000037F384 /* arrow_64.png */,
+				EFF73FBE163C92000037F384 /* clock_24.png */,
+				EFF73FBF163C92000037F384 /* clock_48.png */,
+				EFF73FC0163C92000037F384 /* clock_64.png */,
+				EFF73FC1163C92000037F384 /* gear_24.png */,
+				EFF73FC2163C92000037F384 /* gear_48.png */,
+				EFF73FC3163C92000037F384 /* gear_64.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EFB5F8F41546B2AC00F02B4D = {
+			isa = PBXGroup;
+			children = (
+				EF84C87E1751688F0070261E /* rt_retina_biale_tlo.png */,
+				EF3A2107170AEBE800D18CEC /* libsqlite3.dylib */,
+				EFD42E1E168C92A3005EA479 /* Resources */,
+				EF772E5316367A50003980BE /* Images */,
+				EF18900415FA7AE1008508A1 /* Views */,
+				EF5660C815D544E3007E5267 /* sounds */,
+				EF5660B815D53D66007E5267 /* SoundManager.h */,
+				EF5660B915D53D66007E5267 /* SoundManager.m */,
+				EFBB341C15BD62D800EB4531 /* TrainingManagerDelegate.h */,
+				EFBB341815BD626600EB4531 /* TrainingManager.h */,
+				EFBB341915BD626600EB4531 /* TrainingManager.m */,
+				EFCE76D615AC211A00B0B03D /* Controllers */,
+				EF38330F15A1DF9D00845FE6 /* DataModel */,
+				EFB5F9091546B2AC00F02B4D /* RunTrainerIOS */,
+				EFB5F9271546B2AC00F02B4D /* RunTrainerIOSTests */,
+				EFB5F9021546B2AC00F02B4D /* Frameworks */,
+				EFB5F9001546B2AC00F02B4D /* Products */,
+				B8711130D290EF59CB42CBC2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB5F9001546B2AC00F02B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB5F8FF1546B2AC00F02B4D /* ultrarunner.app */,
+				EFB5F9201546B2AC00F02B4D /* Ultra runnerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB5F9021546B2AC00F02B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF9231EF18D82F3800C8C33F /* CoreTelephony.framework */,
+				EFAE79E117C257DD00E0CEA2 /* Security.framework */,
+				EFE32BAB174D139500FF35D0 /* MediaPlayer.framework */,
+				EFA39108173A2F8300DBEEB4 /* MessageUI.framework */,
+				EF1FCFFC17295A4B007EF08F /* iAd.framework */,
+				EF89F6D917153CF3005F2DE8 /* AudioToolbox.framework */,
+				EF3A2105170AEBA000D18CEC /* Social.framework */,
+				EF3A2103170AEB9900D18CEC /* Accounts.framework */,
+				EF3A2101170AEB9500D18CEC /* AdSupport.framework */,
+				EF3AEFEF16C37B6800450596 /* CFNetwork.framework */,
+				EF3AEFED16C37ABB00450596 /* StoreKit.framework */,
+				EF3AEFCF16C2E13B00450596 /* SystemConfiguration.framework */,
+				EFB2811616638EAF002E9ECA /* QuartzCore.framework */,
+				EF5660C915D5455B007E5267 /* AVFoundation.framework */,
+				EFBB341D15BD78BE00EB4531 /* CoreLocation.framework */,
+				EF38335115A2EFEC00845FE6 /* CoreData.framework */,
+				EFB5F9031546B2AC00F02B4D /* UIKit.framework */,
+				EFB5F9051546B2AC00F02B4D /* Foundation.framework */,
+				EFB5F9071546B2AC00F02B4D /* CoreGraphics.framework */,
+				6A8F30415289B5441109B0BE /* libPods-ultrarunner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB5F9091546B2AC00F02B4D /* RunTrainerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				EFB5F9111546B2AC00F02B4D /* Ultra runner-Prefix.pch */,
+				EFABFD7C15AD636700F732D3 /* RunTrainerShared.h */,
+				EFABFD7D15AD636700F732D3 /* RunTrainerShared.m */,
+				EFB5F9121546B2AC00F02B4D /* runtrainerAppDelegate.h */,
+				EFB5F9131546B2AC00F02B4D /* runtrainerAppDelegate.m */,
+				EFB5F9151546B2AC00F02B4D /* MainStoryboard.storyboard */,
+				EFB5F9181546B2AC00F02B4D /* runtrainerViewController.h */,
+				EFB5F9191546B2AC00F02B4D /* runtrainerViewController.m */,
+				EFB5F90A1546B2AC00F02B4D /* Supporting Files */,
+				EF213F8015F76BDF002EB35C /* ResultDetailsCell.h */,
+				EF213F8115F76BDF002EB35C /* ResultDetailsCell.m */,
+				EF8A1D1A168C4CDC00A24FE0 /* StaticLibrary.h */,
+				EF8A1D1B168C4CDC00A24FE0 /* StaticLibrary.m */,
+			);
+			path = RunTrainerIOS;
+			sourceTree = "<group>";
+		};
+		EFB5F90A1546B2AC00F02B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB5F90B1546B2AC00F02B4D /* Ultra runner-Info.plist */,
+				EFB5F90C1546B2AC00F02B4D /* InfoPlist.strings */,
+				EFB5F90F1546B2AC00F02B4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB5F9271546B2AC00F02B4D /* RunTrainerIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB5F92D1546B2AC00F02B4D /* RunTrainerIOSTests.h */,
+				EFB5F92E1546B2AC00F02B4D /* RunTrainerIOSTests.m */,
+				EFB5F9281546B2AC00F02B4D /* Supporting Files */,
+			);
+			path = RunTrainerIOSTests;
+			sourceTree = "<group>";
+		};
+		EFB5F9281546B2AC00F02B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB5F9291546B2AC00F02B4D /* Ultra runnerTests-Info.plist */,
+				EFB5F92A1546B2AC00F02B4D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFCE76D615AC211A00B0B03D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFCE76D215AC210F00B0B03D /* TrainingsViewController.h */,
+				EFCE76D315AC210F00B0B03D /* TrainingsViewController.m */,
+				EFABFDB115ADAB8B00F732D3 /* createDistanceTrainingViewController.h */,
+				EFABFDB215ADAB8B00F732D3 /* createDistanceTrainingViewController.m */,
+				EF1FC92815AEF1ED00337965 /* CreateTimeTrialTrainingViewController.h */,
+				EF1FC92915AEF1ED00337965 /* CreateTimeTrialTrainingViewController.m */,
+				EF01522115B0348700CAD510 /* CreateNewTimeIntervalTrainingController.h */,
+				EF01522215B0348700CAD510 /* CreateNewTimeIntervalTrainingController.m */,
+				EFBFD0E815B5495300356661 /* CreateNewDistanceIntervalViewController.h */,
+				EFBFD0E915B5495300356661 /* CreateNewDistanceIntervalViewController.m */,
+				EFBFD0F215B593D400356661 /* StartTrainingViewController.h */,
+				EFBFD0F315B593D500356661 /* StartTrainingViewController.m */,
+				EFDDF66415B6C42500783341 /* ConfigViewController.h */,
+				EFDDF66515B6C42500783341 /* ConfigViewController.m */,
+				EF1C27E215C6A2FD00D5E9F9 /* ViewResultsTableViewController.h */,
+				EF1C27E315C6A2FD00D5E9F9 /* ViewResultsTableViewController.m */,
+				EF19FD2A15F4BF6B00CDE6B4 /* ResultDetailsController.h */,
+				EF19FD2B15F4BF6B00CDE6B4 /* ResultDetailsController.m */,
+				EF0E399B15F92E3A004C54D5 /* SpeedChartViewController.h */,
+				EF0E399C15F92E3A004C54D5 /* SpeedChartViewController.m */,
+				EF14F6FB162C905000FDC2B7 /* SearchResultsTableViewController.h */,
+				EF14F6FC162C905000FDC2B7 /* SearchResultsTableViewController.m */,
+				EF2AE51716FE49DA00F05C44 /* SelectNewTrainingTypeViewController.h */,
+				EF2AE51816FE49DA00F05C44 /* SelectNewTrainingTypeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EFD42E1E168C92A3005EA479 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FA3F317E6EF21000F4E72 /* ImagesFull.xcassets */,
+				EF84C87C1751687E0070261E /* rtfull_standard_biale_tlo.png */,
+				EFC3AABD16DBF8DC0017FEA8 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB5F8FE1546B2AC00F02B4D /* ultrarunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB5F9321546B2AC00F02B4D /* Build configuration list for PBXNativeTarget "ultrarunner" */;
+			buildPhases = (
+				D882DD0A709791C03CBF0489 /* Check Pods Manifest.lock */,
+				EFB5F8FB1546B2AC00F02B4D /* Sources */,
+				EFB5F8FC1546B2AC00F02B4D /* Frameworks */,
+				EFB5F8FD1546B2AC00F02B4D /* Resources */,
+				246EE46117024C18C3D54DAD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ultrarunner;
+			productName = RunTrainerIOS;
+			productReference = EFB5F8FF1546B2AC00F02B4D /* ultrarunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB5F91F1546B2AC00F02B4D /* Ultra runnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB5F9351546B2AC00F02B4D /* Build configuration list for PBXNativeTarget "Ultra runnerTests" */;
+			buildPhases = (
+				EFB5F91B1546B2AC00F02B4D /* Sources */,
+				EFB5F91C1546B2AC00F02B4D /* Frameworks */,
+				EFB5F91D1546B2AC00F02B4D /* Resources */,
+				EFB5F91E1546B2AC00F02B4D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB5F9261546B2AC00F02B4D /* PBXTargetDependency */,
+			);
+			name = "Ultra runnerTests";
+			productName = RunTrainerIOSTests;
+			productReference = EFB5F9201546B2AC00F02B4D /* Ultra runnerTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB5F8F61546B2AC00F02B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = runtrainer;
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					EFB5F8FE1546B2AC00F02B4D = {
+						DevelopmentTeam = M5KM7QX4X7;
+					};
+				};
+			};
+			buildConfigurationList = EFB5F8F91546B2AC00F02B4D /* Build configuration list for PBXProject "Ultra runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				pl,
+				cs,
+				da,
+				de,
+				es,
+				Base,
+			);
+			mainGroup = EFB5F8F41546B2AC00F02B4D;
+			productRefGroup = EFB5F9001546B2AC00F02B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB5F8FE1546B2AC00F02B4D /* ultrarunner */,
+				EFB5F91F1546B2AC00F02B4D /* Ultra runnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB5F8FD1546B2AC00F02B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB5F90E1546B2AC00F02B4D /* InfoPlist.strings in Resources */,
+				EF87E7091A8CB52500E5D0E6 /* Default-568h@2x.png in Resources */,
+				EFB5F9171546B2AC00F02B4D /* MainStoryboard.storyboard in Resources */,
+				EFF73FC4163C92000037F384 /* arrow_24.png in Resources */,
+				EFF73FC5163C92000037F384 /* arrow_48.png in Resources */,
+				EFF73FC6163C92000037F384 /* arrow_64.png in Resources */,
+				EFF73FC7163C92000037F384 /* clock_24.png in Resources */,
+				EFF73FC8163C92000037F384 /* clock_48.png in Resources */,
+				EFF73FC9163C92000037F384 /* clock_64.png in Resources */,
+				EFF73FCA163C92000037F384 /* gear_24.png in Resources */,
+				EFF73FCB163C92000037F384 /* gear_48.png in Resources */,
+				EFF73FCC163C92000037F384 /* gear_64.png in Resources */,
+				EF0FA3E817E6ECFF000F4E72 /* rtfull_standard_biale_tlo.png in Resources */,
+				EF1ECA9816D60E6C007A01E5 /* bip.mp3 in Resources */,
+				EFC3AABB16DBF8DC0017FEA8 /* Localizable.strings in Resources */,
+				EF924B6B16E4B9E200ED7FDC /* distance.png in Resources */,
+				EF924B6C16E4B9E200ED7FDC /* speed.png in Resources */,
+				EF40F1531712DC6600440D41 /* help_24.png in Resources */,
+				EF0FA3F417E6EF21000F4E72 /* ImagesFull.xcassets in Resources */,
+				EF0FA3E217E6ECFF000F4E72 /* rt_retina_biale_tlo.png in Resources */,
+				EF1FCFEB1725413E007EF08F /* black_back.png in Resources */,
+				EF84C87D1751687E0070261E /* rtfull_standard_biale_tlo.png in Resources */,
+				EF84C87F1751688F0070261E /* rt_retina_biale_tlo.png in Resources */,
+				EFFF3FF017748AB9004D5459 /* menuButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB5F91D1546B2AC00F02B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB5F92C1546B2AC00F02B4D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		246EE46117024C18C3D54DAD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ultrarunner/Pods-ultrarunner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D882DD0A709791C03CBF0489 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB5F91E1546B2AC00F02B4D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB5F8FB1546B2AC00F02B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB5F9101546B2AC00F02B4D /* main.m in Sources */,
+				EFB5F9141546B2AC00F02B4D /* runtrainerAppDelegate.m in Sources */,
+				EFB5F91A1546B2AC00F02B4D /* runtrainerViewController.m in Sources */,
+				EFA6F1D4159C705B00C8810F /* RTModel.xcdatamodeld in Sources */,
+				EFCE76D415AC210F00B0B03D /* TrainingsViewController.m in Sources */,
+				EFABFD7E15AD636700F732D3 /* RunTrainerShared.m in Sources */,
+				EFABFDB315ADAB8B00F732D3 /* createDistanceTrainingViewController.m in Sources */,
+				EF1FC92A15AEF1ED00337965 /* CreateTimeTrialTrainingViewController.m in Sources */,
+				EF01522315B0348700CAD510 /* CreateNewTimeIntervalTrainingController.m in Sources */,
+				EF01522715B0490800CAD510 /* Training.m in Sources */,
+				EFBFD0EA15B5495300356661 /* CreateNewDistanceIntervalViewController.m in Sources */,
+				EFBFD0F415B593D500356661 /* StartTrainingViewController.m in Sources */,
+				EFDDF66615B6C42500783341 /* ConfigViewController.m in Sources */,
+				EFBB341A15BD626600EB4531 /* TrainingManager.m in Sources */,
+				EFBB342715BD8D4A00EB4531 /* SpeedData.m in Sources */,
+				EF50BA1115BEC19F00C65041 /* Lap.m in Sources */,
+				EF1C27E415C6A2FD00D5E9F9 /* ViewResultsTableViewController.m in Sources */,
+				EF5660BA15D53D66007E5267 /* SoundManager.m in Sources */,
+				EF19FD2C15F4BF6B00CDE6B4 /* ResultDetailsController.m in Sources */,
+				EF213F8215F76BDF002EB35C /* ResultDetailsCell.m in Sources */,
+				EF0E399D15F92E3A004C54D5 /* SpeedChartViewController.m in Sources */,
+				EF18900815FA7B06008508A1 /* SpeedChartView.m in Sources */,
+				EF14F6FD162C905000FDC2B7 /* SearchResultsTableViewController.m in Sources */,
+				EF3E5F5A1648E2A10059A744 /* Training+TrainingDescription.m in Sources */,
+				EF8A1D1C168C4CDC00A24FE0 /* StaticLibrary.m in Sources */,
+				EF2AE51916FE49DA00F05C44 /* SelectNewTrainingTypeViewController.m in Sources */,
+				EFFFE5BC1740D2A5006EFAC1 /* ResultLap.m in Sources */,
+				EFFFE5BF1740D2A5006EFAC1 /* Result.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB5F91B1546B2AC00F02B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB5F92F1546B2AC00F02B4D /* RunTrainerIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB5F9261546B2AC00F02B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB5F8FE1546B2AC00F02B4D /* ultrarunner */;
+			targetProxy = EFB5F9251546B2AC00F02B4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB5F90C1546B2AC00F02B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB5F90D1546B2AC00F02B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFB5F9151546B2AC00F02B4D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF5CD001714905300A7A1B5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB5F92A1546B2AC00F02B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB5F92B1546B2AC00F02B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFC3AABD16DBF8DC0017FEA8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC3AABE16DBF8E30017FEA8 /* en */,
+				EFC3AABF16DBF93A0017FEA8 /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB5F9301546B2AC00F02B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jaroslaw Pawlak (93SZQH9GF6)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "03BA7B0B-7391-45C6-9661-FDE8F0A836C3";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFB5F9311546B2AC00F02B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jaroslaw Pawlak (93SZQH9GF6)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "649EF185-8C3F-4EFE-85F1-03D08F2D0DCB";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB5F9331546B2AC00F02B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCBCF71D923F857384F6D05 /* Pods-ultrarunner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../FacebookSDK",
+					"$(SRCROOT)/..",
+					"$(SRCROOT)/",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunTrainerIOS/Ultra runner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FullApp,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RunTrainerIOS/Ultra runner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Flurry-iOS-4.3.2/Flurry\"",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSdkiOS-6.8.0\"",
+					"$(PROJECT_DIR)/Flurry",
+					"$(PROJECT_DIR)/FlurryAds",
+					"\"$(SRCROOT)/../Flurry-iOS-4.3.2/Flurry\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFB5F9341546B2AC00F02B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34986F3637E0697644E21B4F /* Pods-ultrarunner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../FacebookSDK",
+					"$(SRCROOT)/..",
+					"$(SRCROOT)/",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunTrainerIOS/Ultra runner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FullApp,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RunTrainerIOS/Ultra runner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Flurry-iOS-4.3.2/Flurry\"",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSdkiOS-6.8.0\"",
+					"$(PROJECT_DIR)/Flurry",
+					"$(PROJECT_DIR)/FlurryAds",
+					"\"$(SRCROOT)/../Flurry-iOS-4.3.2/Flurry\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFB5F9361546B2AC00F02B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RunTrainerIOS.app/RunTrainerIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunTrainerIOS/RunTrainerIOS-Prefix.pch";
+				INFOPLIST_FILE = "RunTrainerIOSTests/Ultra runnerTests-Info.plist";
+				PRODUCT_NAME = "Ultra runnerTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EFB5F9371546B2AC00F02B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RunTrainerIOS.app/RunTrainerIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunTrainerIOS/RunTrainerIOS-Prefix.pch";
+				INFOPLIST_FILE = "RunTrainerIOSTests/Ultra runnerTests-Info.plist";
+				PRODUCT_NAME = "Ultra runnerTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB5F8F91546B2AC00F02B4D /* Build configuration list for PBXProject "Ultra runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB5F9301546B2AC00F02B4D /* Debug */,
+				EFB5F9311546B2AC00F02B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFB5F9321546B2AC00F02B4D /* Build configuration list for PBXNativeTarget "ultrarunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB5F9331546B2AC00F02B4D /* Debug */,
+				EFB5F9341546B2AC00F02B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFB5F9351546B2AC00F02B4D /* Build configuration list for PBXNativeTarget "Ultra runnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB5F9361546B2AC00F02B4D /* Debug */,
+				EFB5F9371546B2AC00F02B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFA6F1D2159C705B00C8810F /* RTModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFFFE5B91740D0E3006EFAC1 /* RTModel 2.xcdatamodel */,
+				EFA6F1D3159C705B00C8810F /* RTModel.xcdatamodel */,
+			);
+			currentVersion = EFFFE5B91740D0E3006EFAC1 /* RTModel 2.xcdatamodel */;
+			name = RTModel.xcdatamodeld;
+			path = RunTrainerIOS/RTModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFB5F8F61546B2AC00F02B4D /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D2C168D7-04C0-450F-94FC-12BFE1BEC4E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ultra runner</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>25F6B8835AF239BB93E0739D340977B45C22A5BB</key>
+		<string>https://bitbucket.org/jaroslawp/runtrainerios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RunTrainerIOS/Ultra runner.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>25F6B8835AF239BB93E0739D340977B45C22A5BB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/jaroslawp/runtrainerios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>25F6B8835AF239BB93E0739D340977B45C22A5BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>25F6B8835AF239BB93E0739D340977B45C22A5BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>runtrainerios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

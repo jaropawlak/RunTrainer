@@ -1,0 +1,63 @@
+/* 
+  Localized.strings
+  Ultra runner
+
+  Created by jarek on 25.02.2013.
+
+*/
+// *** config
+
+"CountdownFooter" = "How much time would you like after pressing start training button, before training actually begins (to hide phone in your pocket)? Set to 0 for instant start.";
+"requiredTempoLabel" = "Required tempo";
+
+"MonitorTempoLabel" = "Monitor tempo";
+"warnIfTempoDiffersLabel" = "Warn if tempo differs from requested more than %";
+"checkTempoIntervalTitleLabel" = "Check tempo interval(seconds)";
+"useMetronomeLabel" = "Use Metronome";
+"requestedStepsPerMinuteLabel" = "Requested steps per minute";
+
+
+//new trainings
+"distanceIntervalDescription" = "Run some distance, rest time can depend on run time (eg 2* run time) or be defined explicitly (eg. rest 20 seconds)";
+"timeIntervalDescription" = "Run some time, then rest some time, then repeat";
+"timeTrialDescription"="Define how long do you want to run";
+"distanceTrainingDescription"="Define how far do you want to run";
+"distanceTrainingTitle" = "Distance training";
+"timeTrialTitle" = "Time trial training";
+"timeIntervalTitle" = "Time interval";
+"distanceIntervalTitle" = "Distance interval";
+//distance training
+"CreateDistanceTrainingTitle" = "Distance run";
+"TrainingName" = "Give your training a name";
+"Distance" = "Distance";
+//time trial
+"TimeTrialLength" = "Define time trial length";
+"NewTimeTrialTitle" = "Time trial";
+//timeinterval
+"RunTime" = "Run time";
+"RestTime" = "Rest time";
+"Rest time computed" = "Rest time computed";
+"Description" = "Description";
+"TimeIntervalTitle" = "Time interval";
+//distance interval
+"DistanceIntervalTitle" = "Dist.interval";
+"RunDistance" = "Run distance";
+"AddLap" = "Add lap";
+
+//Go pro
+"thisFeatureInFullApp"="Go Pro! Full version includes many features you'll love:";
+"featureList"="- Create your own trainings (including time/distance intervals and intervals where rest time depends on run time)\n- Use metronome (and believe me - this app has the least irritating metronome sound of all you have heard)\n- Use monitor tempo feature\n- No Ads";
+"upgradeNowButton"="Upgrade now!";
+"noThanksButton"="No, thanks";
+"RemoveAds"="Remove ads";
+//purchase manager
+"Warning" = "Warning";
+"TransactionFailed" = "Transaction failed. Please try again later or report problem.";
+
+"GO" = "Go";
+"STOP" = "Stop";
+"FASTER" = "Go faster";
+"SLOWER" = "Slow down";
+"DONE" = "Workout done";
+"CHECKPOINT" = "Checkpoint";
+
